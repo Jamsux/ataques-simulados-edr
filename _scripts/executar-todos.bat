@@ -31,6 +31,9 @@ for %%T in (
   "08-bypass-uac-fodhelper"
   "11-execucao-mshta"
   "12-criacao-conta-admin"
+  "13-movimento-lateral"
+  "14-exfiltracao"
+  "15-download-bitsadmin"
 ) do (
   echo.
   echo ------------------------------------------------------------
@@ -44,9 +47,9 @@ for %%T in (
 
 echo.
 echo ============================================================
-echo   OBSERVACAO: os testes 09 (shadow copies) e 10 (logs) sao
-echo   DESTRUTIVOS e NAO foram incluidos aqui. Rode-os manualmente
-echo   se precisar valida-los.
+echo   OBSERVACAO: os testes 09 (shadow copies), 10 (logs) e 16
+echo   (anti forense) sao DESTRUTIVOS e NAO foram incluidos aqui.
+echo   Rode-os manualmente se precisar valida-los.
 echo ============================================================
 echo.
 echo   Para desfazer as alteracoes, rode: limpar-tudo.bat

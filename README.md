@@ -2,6 +2,13 @@
 
 **Portugues** | [English](en/README.md)
 
+![Licenca](https://img.shields.io/badge/licen%C3%A7a-MIT-green)
+![Tecnicas](https://img.shields.io/badge/t%C3%A9cnicas-16-blue)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-mapeado-red)
+![Plataforma](https://img.shields.io/badge/plataforma-Windows-0078D6)
+![Idiomas](https://img.shields.io/badge/idiomas-PT%20%7C%20EN-orange)
+![PRs](https://img.shields.io/badge/PRs-bem--vindos-brightgreen)
+
 Laboratorio didatico para validar a deteccao de um EDR usando apenas ferramentas nativas do Windows (as chamadas LOLBins, ou Living Off the Land Binaries).
 
 Embora os exemplos tenham nascido de um teste com o WithSecure Elements, nada aqui depende de um fabricante especifico. As mesmas tecnicas servem para validar qualquer produto de EDR ou antivirus de proxima geracao (CrowdStrike, SentinelOne, Microsoft Defender for Endpoint, Sophos, TrendMicro, Cortex XDR e outros). Onde o texto fala em "seu EDR", leia o produto que voce estiver validando.
@@ -74,20 +81,41 @@ Atalhos na pasta _scripts:
 | 10 | [Limpar logs de eventos](10-limpar-logs-eventos/) | Defense Evasion | T1070.001 | Alta | Sim | SIM |
 | 11 | [Execucao via mshta](11-execucao-mshta/) | Defense Evasion e Execution | T1218.005 | Alta | Nao | Nao |
 | 12 | [Criacao de conta admin](12-criacao-conta-admin/) | Persistence e Priv. Esc. | T1136.001 | Alta | Sim | Reversivel |
+| 13 | [Movimento lateral (3 tecnicas)](13-movimento-lateral/) | Lateral Movement | T1047, T1053.005, T1569.002 | Alta | Sim | Reversivel |
+| 14 | [Exfiltracao (3 canais)](14-exfiltracao/) | Exfiltration | T1048.003, T1567, T1048 | Alta | Nao | Nao |
+| 15 | [Download via BitsAdmin](15-download-bitsadmin/) | Command and Control | T1197, T1105 | Alta | Nao | Nao |
+| 16 | [Anti forense (3 tecnicas)](16-anti-forense/) | Defense Evasion | T1070, T1070.004, T1070.006 | Alta | Sim | SIM |
 
-Atencao. As tecnicas 09 e 10 fazem alteracoes destrutivas, apagam pontos de restauracao ou logs. Sao seguras numa VM com snapshot, mas leia o README antes.
+Atencao. As tecnicas 09, 10 e 16 fazem alteracoes destrutivas, apagam pontos de restauracao, logs ou artefatos forenses. Sao seguras numa VM com snapshot, mas leia o README antes.
 
 ## Por que estas tecnicas
 
 Elas cobrem as principais taticas da cadeia de um ataque real, o chamado kill chain, entao voce valida o EDR de ponta a ponta:
 
 ```
-Execucao  >  Evasao  >  Elevacao  >  Acesso a  >  Descoberta  >  Persistencia  >  Comando e  >  Impacto
-de codigo    de defesa   de privilegio credenciais              garantir volta     Controle      dano
- 02,11        07,10        08           01           03           04,12            05,06         09
+Execucao de codigo ......... 02, 11
+Evasao de defesa ........... 07, 10, 16
+Elevacao de privilegio ..... 08
+Acesso a credenciais ....... 01
+Descoberta ................. 03
+Movimento lateral .......... 13
+Persistencia ............... 04, 12
+Comando e Controle ......... 05, 06, 15
+Exfiltracao ................ 14
+Impacto .................... 09
 ```
 
 Se o seu EDR pega todas, ele esta enxergando o ataque em todas as fases, nao so no comeco ou no fim.
+
+## Mapa de cobertura (MITRE ATT&CK Navigator)
+
+O arquivo [mitre-attack-navigator-layer.json](mitre-attack-navigator-layer.json) pinta no mapa oficial do MITRE ATT&CK todas as tecnicas cobertas por este laboratorio. E otimo para visualizar a cobertura e usar em apresentacoes.
+
+Como usar:
+
+1. Abra o MITRE ATT&CK Navigator em https://mitre-attack.github.io/attack-navigator/
+2. Clique em Open Existing Layer e depois em Upload from local.
+3. Selecione o arquivo mitre-attack-navigator-layer.json deste repositorio.
 
 ## Licenca e responsabilidade
 
