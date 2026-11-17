@@ -1,5 +1,7 @@
 # 01. Coleta de Credenciais (Dump do LSASS)
 
+[English](../en/01-coleta-credenciais-lsass/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Credential Access
 **ID:** T1003.001
 **Severidade esperada:** Critica

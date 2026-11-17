@@ -1,5 +1,7 @@
 # 06. Shell Reversa (controle remoto)
 
+[English](../en/06-shell-reversa/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Command and Control
 **IDs:** T1059.001, T1071
 **Severidade esperada:** Critica

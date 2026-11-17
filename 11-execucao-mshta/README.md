@@ -1,5 +1,7 @@
 # 11. Execucao via mshta (LOLBin)
 
+[English](../en/11-execucao-mshta/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Defense Evasion e Execution
 **ID:** T1218.005
 **Severidade esperada:** Alta

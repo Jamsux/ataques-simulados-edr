@@ -1,5 +1,7 @@
 # Aviso Legal e de Responsabilidade
 
+**Portugues** | [English](en/LEGAL.md)
+
 ## Finalidade
 
 Este repositorio existe unicamente para fins educacionais e para a validacao autorizada de ferramentas de seguranca, como EDR e antivirus, em ambientes de laboratorio controlado.

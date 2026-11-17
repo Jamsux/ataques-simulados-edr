@@ -1,5 +1,7 @@
 # 04. Persistencia (Chave Run e Tarefa Agendada)
 
+[English](../en/04-persistencia-run-e-agendador/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Persistence
 **IDs:** T1547.001, T1053.005
 **Severidade esperada:** Alta

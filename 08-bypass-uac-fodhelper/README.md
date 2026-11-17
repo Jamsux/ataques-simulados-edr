@@ -1,5 +1,7 @@
 # 08. Bypass de UAC (via fodhelper)
 
+[English](../en/08-bypass-uac-fodhelper/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Privilege Escalation
 **ID:** T1548.002
 **Severidade esperada:** Alta

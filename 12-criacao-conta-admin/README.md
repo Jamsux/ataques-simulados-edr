@@ -1,5 +1,7 @@
 # 12. Criacao de Conta de Administrador
 
+[English](../en/12-criacao-conta-admin/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Persistence e Privilege Escalation
 **ID:** T1136.001, Create Account
 **Severidade esperada:** Alta

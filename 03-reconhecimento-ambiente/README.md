@@ -1,5 +1,7 @@
 # 03. Reconhecimento do Ambiente (Discovery)
 
+[English](../en/03-reconhecimento-ambiente/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Discovery
 **IDs:** T1082, T1087, T1016, T1018, T1033
 **Severidade esperada:** Media

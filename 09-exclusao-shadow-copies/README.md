@@ -1,5 +1,7 @@
 # 09. Exclusao de Shadow Copies (comportamento de ransomware)
 
+[English](../en/09-exclusao-shadow-copies/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Impact
 **ID:** T1490, Inhibit System Recovery
 **Severidade esperada:** Critica

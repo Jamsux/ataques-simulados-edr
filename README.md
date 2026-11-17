@@ -1,5 +1,7 @@
 # Ataques Simulados para Validacao de EDR
 
+**Portugues** | [English](en/README.md)
+
 Laboratorio didatico para validar a deteccao de um EDR usando apenas ferramentas nativas do Windows (as chamadas LOLBins, ou Living Off the Land Binaries).
 
 Embora os exemplos tenham nascido de um teste com o WithSecure Elements, nada aqui depende de um fabricante especifico. As mesmas tecnicas servem para validar qualquer produto de EDR ou antivirus de proxima geracao (CrowdStrike, SentinelOne, Microsoft Defender for Endpoint, Sophos, TrendMicro, Cortex XDR e outros). Onde o texto fala em "seu EDR", leia o produto que voce estiver validando.

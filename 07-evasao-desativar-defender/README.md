@@ -1,5 +1,7 @@
 # 07. Evasao de Defesa (mexer no antivirus)
 
+[English](../en/07-evasao-desativar-defender/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Defense Evasion
 **ID:** T1562.001, Impair Defenses
 **Severidade esperada:** Alta

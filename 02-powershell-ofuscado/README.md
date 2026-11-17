@@ -1,5 +1,7 @@
 # 02. PowerShell Ofuscado (comando codificado)
 
+[English](../en/02-powershell-ofuscado/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Execution e Defense Evasion
 **ID:** T1059.001, T1027
 **Severidade esperada:** Alta

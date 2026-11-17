@@ -1,5 +1,7 @@
 # 10. Limpar Logs de Eventos (anti forense)
 
+[English](../en/10-limpar-logs-eventos/README.md) | **Portugues**
+
 **Tatica MITRE ATT&CK:** Defense Evasion
 **ID:** T1070.001, Clear Windows Event Logs
 **Severidade esperada:** Alta
