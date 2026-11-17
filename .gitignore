@@ -1,0 +1,11 @@
+# Saidas geradas pelos testes (nao versionar)
+*.dmp
+*.tmp
+C_temp/
+saida/
+loot/
+
+# Arquivos de sistema
+Thumbs.db
+desktop.ini
+.DS_Store
